@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>prios@altimetrik.com</contactEmail>
+    <label>Project Service</label>
+    <oauthConfig>
+        <callbackUrl>https://sb-integration-pms-2.herokuapp.com/oauth/_callback</callbackUrl>
+        <consumerKey>3MVG9riCAn8HHkYXgNVReD6lYe2Tn6jt_LbgqlHUs5rLJL.faRIxcGVkJHVetTK3RZDXgYoOpdxG21hzqUxJX</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>
