@@ -37,5 +37,4 @@ global with sharing class ProjectRESTService {
             return errorMessage;
         }
     }
-
 }
